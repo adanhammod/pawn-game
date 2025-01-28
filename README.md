@@ -6,7 +6,7 @@
 
 ![](./images/PawnGame.gif)
 
-##### 🎮 Game Description:
+### 🎮 Game Description:
 
 The game is played between two players -White and Black- on an 8x8 chessboard.
 
@@ -22,7 +22,7 @@ The movement rules for pawns are as follows:
 * **In the opening**, pawns can move **two squares forward** if both squares are empty.
 * If an opponent's pawn is on an adjacent horizontal square and a pawn moves two squares forward, the opponent may capture it as if the pawn only moved one square (this rule is valid only for the next move – known as "en passant").
 
-##### **🏆 Winning Conditions:**
+#### **🏆 Winning Conditions:**
 
 The game is won if one of the following conditions occurs:
 
@@ -30,13 +30,13 @@ The game is won if one of the following conditions occurs:
 * A player successfully captures all of the opponent's pawns.
 * A player causes a situation where the opponent has no legal moves left.
 
-##### Installation:
+### Installation:
 
 Download the repository and install the necessary Python module:
 
 `pip install pygame `
 
-##### 🚀 Running the Pawn Game:
+### 🚀 Running the Pawn Game:
 
 This project offers two gameplay modes:
 
@@ -47,35 +47,29 @@ This project offers two gameplay modes:
      * **User vs AI:** The user plays one side, and the AI plays the other.
      * **AI vs AI:** Both sides are controlled by AI agents, enabling automated gameplay between two AIs.
 
-**Running the Game in Server-Client Mode:**
+#### **Running the Game in Server-Client Mode**
 
-    **a.** Start the Server:
+1. **Start the Server**
+   - Open a terminal and run the following command to start the server:
+     ```bash
+     python server.py
+     ```
 
-* Open a terminal and run the following command to start the server:
+2. **Start the AI Client (Playing as White)**
+   - Open another terminal window and run the following command for the AI client:
+     ```bash
+     python client.py
+     ```
 
-```
- python server.py
-```
-
-   **b.** Start the AI Client (Playing as White):
-
-- Open another terminal window and run the following command for the AI client:
-
-```
- python client.py
-```
-
-    **c.** Start the User Client (Playing as Black):
-
-* In third terminal window, run the following command for the user client:
-
-```
- python humanClient.py
-```
+3. **Start the User Client (Playing as Black)**
+   - Open a third terminal window and run the following command for the user client:
+     ```bash
+     python humanClient.py
+     ```
 
 - Alternatively, you can run another `client.py` to play as the AI-controlled player on the Black side.
 
-##### 🖼️ Game Screen:
+### 🖼️ Game Screen:
 
 * **Main Game Screen:**
 
